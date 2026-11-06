@@ -1,0 +1,8 @@
+# Ignore these in the published npm package
+.git
+.gitignore
+.github/
+tests/
+test.js
+*.tgz
+.DS_Store

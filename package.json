@@ -1,0 +1,44 @@
+{
+  "name": "asd-buckcet-npmpackage",
+  "version": "1.0.0",
+  "description": "A lightweight, reusable JavaScript utility library — string helpers, array utilities, and type-safe value operations. Built for ASD Bucket by Meka Vikas.",
+  "author": "Meka Vikas <e25b070538@adypu.edu.in>",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "asd",
+    "bucket",
+    "utility",
+    "utils",
+    "string",
+    "array",
+    "helpers",
+    "node",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mekavikas/asd-buckcet-npmpackage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mekavikas/asd-buckcet-npmpackage/issues"
+  },
+  "homepage": "https://github.com/mekavikas/asd-buckcet-npmpackage#readme",
+  "scripts": {
+    "test": "node --test tests/index.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
